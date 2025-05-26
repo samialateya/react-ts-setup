@@ -1,11 +1,10 @@
-import '@testing-library/jest-dom/vitest';
 import { render, screen } from '@testing-library/react';
 import { describe, expect, test } from 'vitest';
-import App from './app.tsx';
+import { HomePage } from './index.tsx';
 
 describe('Badge', () => {
   test('renders successfully', () => {
-    render(App());
-    expect(screen.getByText('Hello World')).toBeInTheDocument();
+    render(HomePage());
+    expect(screen.getByText('Home Page')).toBeInTheDocument();
   });
 });
