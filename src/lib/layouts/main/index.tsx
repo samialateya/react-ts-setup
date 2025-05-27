@@ -1,4 +1,4 @@
-import { Link, Outlet } from 'react-router';
+import { Link, Outlet } from 'react-router-dom';
 
 export const MainLayout: React.FC = () => {
   return (

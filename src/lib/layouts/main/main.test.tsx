@@ -11,11 +11,12 @@ import { MainLayout } from './index.tsx';
 
 const mockRoutes: RouteObject[] = [
   {
+    path: '/',
     element: <MainLayout />,
     children: [
-      { path: '/', element: <HomePage /> },
+      { index: true, element: <HomePage /> },
       {
-        path: '/about',
+        path: 'about',
         element: <div>About Page</div>,
       },
     ],
