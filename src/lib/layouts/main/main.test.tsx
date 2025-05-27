@@ -1,3 +1,4 @@
+import { HomePage } from '$pages/home/index.tsx';
 import { act, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import {
@@ -6,7 +7,6 @@ import {
   type RouteObject,
 } from 'react-router-dom';
 import { beforeEach, describe, expect, test } from 'vitest';
-import { HomePage } from '../../../pages/home/index.tsx';
 import { MainLayout } from './index.tsx';
 
 const mockRoutes: RouteObject[] = [

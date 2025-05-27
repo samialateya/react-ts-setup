@@ -1,5 +1,5 @@
+import { Button } from '$lib/components/atoms/button';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../../components/atoms/button';
 
 export function NotFound() {
   const navigate = useNavigate();
