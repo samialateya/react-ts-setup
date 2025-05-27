@@ -7,7 +7,7 @@ export const MainLayout: React.FC = () => {
         <nav role="navigation" aria-label="Main navigation">
           <Link to="/">Home</Link>
           <span aria-hidden="true"> | </span>
-          <Link to="/about">About</Link>
+          <Link to="about">About</Link>
         </nav>
       </header>
       <main role="main">
