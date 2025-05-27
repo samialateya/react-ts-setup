@@ -4,7 +4,7 @@ import { HomePage } from './index.tsx';
 
 describe('HomePage', () => {
   test('renders successfully', () => {
-    render(HomePage());
+    render(<HomePage />);
     expect(screen.getByText('Home Page')).toBeInTheDocument();
   });
 });
