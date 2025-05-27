@@ -42,8 +42,12 @@ export default tseslint.config(
           allowList: {
             props: true,
             prop: true,
+            Props: true,
+            Prop: true,
             ref: true,
             refs: true,
+            Ref: true,
+            Refs: true,
           },
         },
       ],
