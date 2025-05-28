@@ -77,22 +77,22 @@ A modern, optimized React TypeScript starter template designed to accelerate you
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/samialateya/react-ts-setup.git
-cd react-ts-setup
-```
+   ```bash
+   git clone https://github.com/samialateya/react-ts-setup.git
+   cd react-ts-setup
+   ```
 
 2. Install dependencies:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. Start the development server:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 Your application will be available at `http://localhost:5173/`
 
