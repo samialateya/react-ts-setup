@@ -78,7 +78,7 @@ A modern, optimized React TypeScript starter template designed to accelerate you
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/react-ts-setup.git
+git clone https://github.com/samialateya/react-ts-setup.git
 cd react-ts-setup
 ```
 
