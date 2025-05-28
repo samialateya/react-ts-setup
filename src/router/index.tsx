@@ -1,7 +1,7 @@
+import { MainLayout } from '$lib/layouts/main';
+import { NotFound } from '$pages/errors/not-found';
+import { HomePage } from '$pages/home';
 import { Route, Routes } from 'react-router-dom';
-import { MainLayout } from '../lib/layouts/main';
-import { NotFound } from '../pages/errors/not-found';
-import { HomePage } from '../pages/home';
 
 export function Router() {
   return (

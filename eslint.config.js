@@ -48,6 +48,7 @@ export default tseslint.config(
             refs: true,
             Ref: true,
             Refs: true,
+            lib: true,
           },
         },
       ],
